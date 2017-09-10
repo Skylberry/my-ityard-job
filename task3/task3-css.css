@@ -7,13 +7,13 @@
     margin-left: 4vw;
     width:20vw;
     height:10vh;
-    border: 1px dotted #ffffff;
+    
     }
     .imgbox2{
     margin: 0 auto;
     width:30vw;
     height:10vh;
-    border: 1px dotted #ffffff;
+    
     text-align: center;       
     }
     .imgbox3{
@@ -22,7 +22,7 @@
     margin:20vh auto;
     width:auto;
     height:10vh;
-    border: 1px dotted #ffffff;
+    
     text-align: center;       
     }
      .imgbox4{
@@ -31,14 +31,14 @@
     margin:20vh auto;
     width:auto;
     height:10vh;
-    border: 1px dotted #ffffff;
+    
     text-align: center;       
     }    
     .textbox1{
      margin: 0 auto;
     width:80vw;
     height:auto;
-    border: 1px dotted #ffffff;
+    
     margin-top: 10vh;
     text-align:left; 
     }
