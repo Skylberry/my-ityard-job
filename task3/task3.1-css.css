@@ -1,0 +1,61 @@
+  *{padding: 0}
+    body{
+    background-color: #68cdd5;    
+    }
+    .imgbox1{ 
+    margin-top:3.5vh;
+    margin-left: 4vw;
+    height:10vh;    
+    }
+    .imgbox2{
+    margin: 0 auto;
+    height:10vh;
+   
+    text-align: center;       
+    }
+    .imgbox3{
+    position: absolute;
+    left: 20vw;
+    margin:20vh auto;    
+    text-align: center;       
+    }
+     .imgbox4{
+    position: absolute;
+    right: 20vw;
+    margin:20vh auto; 
+    text-align: center;       
+    }    
+    .textbox1{
+     margin: 0 auto;
+    width:80vw;   
+    margin-top: 10vh;
+    text-align:center; 
+    }
+    .img1{
+    width:35px;
+    height: 35px;
+    }
+    .img2{
+    width:110px;
+    height:45px;
+    }
+    .img3{
+    width:40px;
+    height:40px;
+    }
+    .img4{
+     width:40px;
+    height:40px;
+    }
+    .text1{  
+    font-size: 1.5vh;
+    line-height:2.5vh;
+    font-family: "黑体";
+    color:#ffffff;         
+    }
+     .text2{   
+    font-size: 1.1vh;
+    line-height:2.2vh;
+    font-family: "黑体";
+    color:#ffffff;         
+    }
