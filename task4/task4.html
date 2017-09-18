@@ -4,58 +4,90 @@
 	<meta name="task4" content="width=device-width,initial-scale=1.0" charset="UTF-8">
 	<title>登录界面</title>
 	<style type="text/css">
-	html{font-size: 62.5%;}
+	html{font-size: 62.5%;margin: 0;}
 		*{padding: 0;}
-		body{background-color:#eff0f4;}
-		.head{
-			position: relative;
+		body{background-color:#eff0f4;margin: 0;}
+		.header{
+			position:absolute;
+            top: 0;
 			height:60px;
 			width:100%;
 			background-color:#5fc0cd;
-			border: 1px dotted black;
-			text-align: center;
 		}
-		form{}
+        input{outline: medium;
+             border: none;  
+        }
+		form{ 
+        margin: 0;
+        position: relative;
+
+         }
 		.text1{
-		margin: 0;
-
+		
+        margin: 0;
 		font-size:3rem;
-		color:#ffffff;
+		color:#fff;
 		font-family: "Adobe 黑体 Std R";
-		position: absolute;
-		left:3%;
+        position:absolute;
+        top: 0;
+        left:3%; 
 		line-height:60px;
-
 		}
 		.text2{
-			display: block;
-			margin:0 auto;
+        margin-left: 48%;
+        margin-top: 0;
 		font-size:3rem;
-		color:#ffffff;
+		color:#fff;
 		font-family: "Adobe 黑体 Std R";
-		
 		line-height: 60px;
 
 		}
 		.text3{
-
+        margin: 0;
 		font-size:3rem;
-		color:#ffffff;
+		color:#fff;
 		font-family: "Adobe 黑体 Std R";
-		position: absolute;
-		right:3%;
-		margin:0 3% 0 0;
+        position:absolute;
+        top:0; 
+        right: 3%; 
 		line-height: 60px;
-
 		}
+        .window{
+        width: 95%;
+        height:41px;
+        float: right;
+        font-size:2rem;
+        color:#000000;
+        font-family: "Adobe 黑体 Std R";
+        border-left: 1px solid #5fc0cd;
+              }
 		.box1{
-		height: 60px;
 
+            margin: 10% 0 0 0;
+        float: left;
+		height:41px;
+        width:98%;
+        background-color:#ffffff;
 		}
 		.box2{
-		height: 60px;
-
+            margin:1% 0 0 0;
+        float: left;
+        height:41px;
+        width:98%;
+        background-color:#ffffff;
 		}
+        .img1{
+            position: absolute;
+            left: 2%;
+            width: 27px;
+            height:41px;
+        }
+        .img2{
+            position: absolute;
+            left: 2%;
+            width: 27px;
+            height:41px;
+        }
 		.loadingbutton{
 		height: 8%;
 		width: 100%;
@@ -63,35 +95,35 @@
 		font-size:3rem;
 		color:#ffffff;
 		font-family: "Adobe 黑体 Std R";
-		
-		margin:80px auto 0 auto;
+		margin-top: 200px;
 		line-height: 5rem;
 		}
 
 	</style>
 </head>
 <body>
-	<div class="head">
+	<div class="header">
+        <p class="text2">登录</p>
 		<p class="text1">关闭</p>
-		<p class="text2">登录</p>
+		
 		<p class="text3">注册</p>	
 	</div>
 	<form action="save.php" method="post">
 		<div class="box1">
-			<div>
-				<img src="file://D:/GitHub/my-ityard-task/task4/iphone.png">
-			</div>
-			<div>
-				<input style="height: 60px;"type="text" name="phonenumber" id="a" value="请输入手机号">	
-			</div>		
+			
+			<label class="img1"><img  src="file://D:/GitHub/my-ityard-task/task4/iphone.png"></label>
+		
+		
+			<input class="window" type="text" name="phonenumber" id="a" value="&nbsp;&nbsp;&nbsp;&nbsp;请输入手机号">	
+				
 		</div>
 		<div class="box2">
-			<div>
-				<img src="file://D:/GitHub/my-ityard-task/task4/locked.png">
-			</div>
-			<div>
-				<input type="text" name="password" id="b" value="请输入密码">
-			</div>	
+			<label class="img2"><img  src="file://D:/GitHub/my-ityard-task/task4/locked.png"></label>
+				
+			
+			
+				<input class="window" type="text" name="password" id="b" value="&nbsp;&nbsp;&nbsp;&nbsp;请输入密码">
+				
 		</div>
 		
 			<input type="button" class="loadingbutton" name="loading" value="登录">
