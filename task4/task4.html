@@ -7,16 +7,84 @@
 		*{padding: 0;}
 		body{background-color:#eff0f4;}
 		.head{
-			height: 5vh;
+			position: relative;
+			height: 6vh;
+			width:100vw;
 			background-color:#5fc0cd;
 			border: 1px dotted black;
+			text-align: center;
 		}
+		form{}
+		.text1{
+		margin: 0;
+
+		font-size:3vh;
+		color:#ffffff;
+		font-family: "Adobe 黑体 Std R";
+		position: absolute;
+		left:3vw;
+		line-height: 6vh;
+
+		}
+		.text2{
+			display: block;
+			margin:0;
+		font-size:3vh;
+		color:#ffffff;
+		font-family: "Adobe 黑体 Std R";
+		position: absolute;
+		left:47vw;
+		line-height: 6vh;
+
+		}
+		.text3{
+
+		font-size:3vh;
+		color:#ffffff;
+		font-family: "Adobe 黑体 Std R";
+		float: right;
+		margin:0 3vw 0 0;
+		line-height: 6vh;
+
+		}
+		.box1{
+
+		}
+		.loadingbutton{
+		height: 8vh;
+		width: 100vw;
+		background-color:#5fc0cd;
+		font-size:3vh;
+		color:#ffffff;
+		font-family: "Adobe 黑体 Std R";
+		
+		margin:0 auto;
+		line-height: 5vh;
+		}
+
 	</style>
 </head>
 <body>
 	<div class="head">
-		
+		<p class="text1">关闭</p>
+		<p class="text2">登录</p>
+		<p class="text3">注册</p>	
 	</div>
+	<form action="save.php" method="post">
+		<div>
+			<img src="file://D:/GitHub/my-ityard-task/task4/iphone.png">
+			<input type="text" name="phonenumber" id="a" value="请输入手机号">
+		</div>
+		<div>
+			<img src="file://D:/GitHub/my-ityard-task/task4/locked.png">
+			<input type="text" name="password" id="b" value="请输入密码">
+		</div>
+		<div>
+			<input type="button" class="loadingbutton" name="loading" value="登录">
+		</div>
+		<p>忘记密码？</p>
+		
+	</form>
 	
 	<div >
 		
