@@ -1,0 +1,102 @@
+    html{font-size: 62.5%;margin: 0;}
+    *{padding: 0;}
+    body{background-color:#edeef0;margin: 0;}
+    .header{
+        position:absolute;
+        top: 0;
+        height:60px;
+        width:100%;
+        background-color:#5fc0cd;
+    }
+    input{outline: medium;
+         border: none;  
+    }
+
+    .text1{
+
+    margin: 0;
+    font-size:3rem;
+    color:#fff;
+    font-family: "Adobe 黑体 Std R";
+    position:absolute;
+    top: 0;
+    left:3%; 
+    line-height:60px;
+    }
+    .text2{
+    margin-left: 48%;
+    margin-top: 0;
+    font-size:3rem;
+    color:#fff;
+    font-family: "Adobe 黑体 Std R";
+    line-height: 60px;
+
+    }
+    .text3{
+    margin: 0;
+    font-size:3rem;
+    color:#fff;
+    font-family: "Adobe 黑体 Std R";
+    position:absolute;
+    top:0; 
+    right: 3%; 
+    line-height: 60px;
+    }
+    .text4{
+    margin-right:20px;
+    margin-top:10px;
+    font-size:3rem;
+    color:#5fc0cd;
+    font-family: "Adobe 黑体 Std R";
+    text-align: right;
+    line-height: 60px;
+
+    }
+    .window{
+        margin-top:20px ;
+     margin-left: 107px;
+    height:41px;
+    font-size:41px;
+    color:#edeef0;
+    font-family: "Adobe 黑体 Std R";
+    border-left: 2px solid #edeef0;
+    }
+    .box1{
+
+        margin: 110px 0 0 0;
+    float:right;
+    height:81px;
+    width:100%;
+    background-color:#ffffff;
+    }
+    .box2{
+        margin:2% 0 0 0;
+    float:right;
+    height:81px;
+    width:100%;
+    background-color:#ffffff;
+    }
+    .img1{
+        margin:20px 40px;
+        position: absolute;
+        left:0;
+        width: 27px;
+        height:41px;
+    }
+    .img2{
+        margin: 20px 40px;
+        position: absolute;
+        left:0;
+        width: 27px;
+        height:41px;
+    }
+    .loadingbutton{
+    height: 6%;
+    width: 100%;
+    background-color:#5fc0cd;
+    font-size:3rem;
+    color:#ffffff;
+    font-family: "Adobe 黑体 Std R";
+    margin-top: 50px;
+    line-height: 5rem;
+    }
