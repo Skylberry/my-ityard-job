@@ -43,23 +43,23 @@
     line-height: 60px;
     }
     .text4{
-    margin-right:20px;
-    margin-top:10px;
+   margin-right:20px;
+    margin-top:5px;
     font-size:3rem;
     color:#5fc0cd;
     font-family: "Adobe 黑体 Std R";
-    text-align: right;
     line-height: 60px;
+    float: right;
 
     }
     .window{
         margin-top:20px ;
-     margin-left: 107px;
+     margin-left: 147px;
     height:41px;
-    font-size:41px;
+    font-size:32px;
     color:#edeef0;
     font-family: "Adobe 黑体 Std R";
-    border-left: 2px solid #edeef0;
+
     }
     .box1{
 
@@ -78,17 +78,12 @@
     }
     .img1{
         margin:20px 40px;
+        padding-right: 40px;
         position: absolute;
         left:0;
         width: 27px;
         height:41px;
-    }
-    .img2{
-        margin: 20px 40px;
-        position: absolute;
-        left:0;
-        width: 27px;
-        height:41px;
+            border-right: 2px solid #edeef0;
     }
     .loadingbutton{
     height: 6%;
