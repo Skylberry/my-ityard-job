@@ -57,7 +57,7 @@
      margin-left: 147px;
     height:41px;
     font-size:32px;
-    color:#edeef0;
+    color:#000000;
     font-family: "Adobe 黑体 Std R";
 
     }
@@ -95,3 +95,16 @@
     margin-top: 50px;
     line-height: 5rem;
     }
+    /*修改提示文字的颜色*/
+    input::-webkit-input-placeholder { /* WebKit browsers */ 
+    color: #edeef0; 
+    } 
+    input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+    color:#edeef0; 
+    } 
+    input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+    color: #edeef0; 
+    } 
+    input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+    color:#edeef0; 
+    } 
