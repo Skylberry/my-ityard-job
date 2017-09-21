@@ -9,7 +9,7 @@
      header{
         position: fixed;
         top: 0;
-        height: 60px;
+        height:60px;
         width: 100%;
         background-color: #5fc0cd;
      }
@@ -18,6 +18,13 @@
         top: 60px;
         width: 100%;
         height:70%;
+        border:1px dotted black;
+     }
+     footer{
+        position: fixed;
+        bottom: 0;
+        height: 10%;
+        width: 100%;
         border:1px dotted black;
      }
      .img1{
@@ -65,11 +72,65 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);  /* 使用css3的transform来实现 */
-        width:27%;
+        width:26%;
         height:26%;
-        border:1px dotted black;
+    }
+    .text1{
+        font-size:36px;
+        position: absolute;
+        top: 0;
+        left:25px;
+        color: #ffffff;
+        font-family: "Adobe 黑体 Std R" ;
+    }
+    .text2{
+        font-size: 28px;
+        position: absolute;
+        right:25px;
+        top:4px;
+        color: #ffffff;
+        font-family: "Adobe 黑体 Std R" ;
+    }
+    .text3{
+        font-size: 24px;
+        position: absolute;
+        right:25px;
+        bottom: 0;
+        color: #ffffff;
+        font-family: "Adobe 黑体 Std R" ;
+    }
+    .img4{
+        height: 24px;
+        position: absolute;
+        left:25px;
+        bottom: 0;
+    }
+    .button1{
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left:4.1%;
+        width: 40%;
+        height: 70%;
+        border: 2px solid #5fc0cd;
+        font-size: 34px;
+        color: #5fc0cd;
+        font-family:  "Adobe 黑体 Std R" ;
+        background-color: #ffffff;
     } 
-    
+    .button2{
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        right: 4.1%;
+        width: 40%;
+        height: 70%;
+        border: 1px solid #5fc0cd;
+        font-size: 34px;
+        color: #ffffff;
+        font-family:  "Adobe 黑体 Std R" ;
+        background-color:#5fc0cd;
+    } 
  </style>
 
 </head>
@@ -82,16 +143,19 @@
         <div class="content1">
             <img  class="img3" src="file://D:/GitHub/my-ityard-task/task5/women.png">
             <div class="textbox2">
-                <p>高素雅</p>
-                <p>51岁</p>
-                <img src="file://D:/GitHub/my-ityard-task/task5/location.png">
-                <p>北京.通州.果园</p>       
+                <p class="text1">高素雅</p>
+                <p class="text2">51岁</p>
+                <img class="img4" src="file://D:/GitHub/my-ityard-task/task5/location.png">
+                <p class="text3">北京.通州.果园</p>       
             </div>
         </div>
     </main>
     <footer>
-        
+        <button type="button" class="button1">留言</button>
+        <button type="button" class="button2">电话联系</button>   
     </footer>
     
+   
+   
 </body>
 </html>
