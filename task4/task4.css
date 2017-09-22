@@ -70,7 +70,7 @@
     background-color:#ffffff;
     }
     .box2{
-        margin:2% 0 0 0;
+    margin:2% 0 0 0;
     float:right;
     height:81px;
     width:100%;
@@ -83,7 +83,7 @@
         left:0;
         width: 27px;
         height:41px;
-            border-right: 2px solid #edeef0;
+        border-right: 2px solid #edeef0;
     }
     .loadingbutton{
     height: 6%;
