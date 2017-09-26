@@ -1,0 +1,238 @@
+    html{font-size: 62.5%;}
+    *{padding: 0;margin:0;}
+     header{
+        position: fixed;
+        top: 0;
+        height:60px;
+        width: 100%;
+        background-color: #5fc0cd;
+     }
+     main{
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        height:75%;
+     }
+     footer{
+        position: fixed;
+        bottom: 0;
+        height: 10%;
+        width: 100%;
+     }
+     .img1{position: absolute;
+       left: 30px;
+       top:12px;
+        width: 22px;
+        height:36px;}
+      
+     .img2{
+        position:absolute;
+        top: 0;
+     }
+     .img3{
+        position: absolute;
+        top: 50%;
+        transform: translate(30%, -50%);  /* 使用css3的transform来实现 */
+        width:170px;
+        height:170px;
+    
+     }
+     .textbox1{
+        
+        position:absolute;
+        top: 6px;
+        left:46%;
+        font-size:36px;
+        color: #ffffff;
+        font-family: "Adobe 黑体 Std R" ;
+        
+     }
+     .content1{
+        width: 100%;
+        height:40%;
+        background-image:url("https://github.com/Skylberry/my-ityard-task/blob/master/task5/background.png?raw=true");
+        background-size:cover;
+        position: relative;
+       
+     }
+    .textbox2{
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);  /* 使用css3的transform来实现 */
+        height:26%;
+    }
+    .text1{
+        font-size:36px;
+        position: fixed;
+        top: 0;
+        left:25px;
+        color: #ffffff;
+        font-family: "Adobe 黑体 Std R" ;
+    }
+    .text2{
+        font-size: 28px;
+        position: fixed;
+        right:25px;
+        top:4px;
+        color: #ffffff;
+        font-family: "Adobe 黑体 Std R" ;
+    }
+    .text3{
+        font-size: 24px;
+        position:fixed;
+        right:25px;
+        bottom: 0;
+        color: #ffffff;
+        font-family: "Adobe 黑体 Std R" ;
+    }
+    .img4{
+        height: 24px;
+        position: fixed;
+        left:25px;
+        bottom: 0;
+    }
+    .content2{
+        width: 100%;
+        height:70%;
+        position: relative;
+    }
+    .button1{
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left:4.1%;
+        width: 40%;
+        height: 70%;
+        border: 2px solid #5fc0cd;
+        font-size: 34px;
+        color: #5fc0cd;
+        font-family:  "Adobe 黑体 Std R" ;
+        background-color: #ffffff;
+    } 
+    .button2{
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        right: 4.1%;
+        width: 40%;
+        height: 70%;
+        border: 1px solid #5fc0cd;
+        font-size: 34px;
+        color: #ffffff;
+        font-family:  "Adobe 黑体 Std R" ;
+        background-color:#5fc0cd;
+    }
+    .content2 ul{
+        height: 100%;
+        list-style: none;
+    }
+    .content2 li{
+        display: block;
+        height:16%;
+        width: 93%;
+        margin-left:4%;
+        position: relative;
+    }
+    .liborder{
+        border-bottom: 1px solid #e1e5e7;
+    }
+    .textbox3{
+        height:32px;
+        width: 300px;
+        line-height:32px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size:32px;
+        color: #000000;
+    }
+    .span1{
+        font-size:5rem;
+        color:#5fc0cd;
+        padding-right: 2%;
+    }
+    .img5{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        float: left;
+        line-height:70%;
+    }
+    .img6{
+        position: absolute;
+        top: 50%;
+        left:12%;
+        transform: translateY(-50%);
+        float: left;
+        line-height:70%;
+    }
+    .text4{
+        position: absolute;
+        top: 50%;
+        left:3%;
+        transform: translateY(-50%);
+        line-height:70%;
+         font-size:32px;
+        color: #000000;
+        font-family:  "Adobe 黑体 Std R" ;
+        text-align:left;
+        
+    }
+    .text5{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translateY(-50%);
+        float: left;
+        line-height:70%;
+         font-size:32px;
+        color: #000000;
+        font-family:  "Adobe 黑体 Std R" ;
+        text-align:left;
+    }
+    .text6{
+        width:17%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        border-right: 1px solid #e1e5e7;
+         font-size:32px;
+        color: #999999;
+        font-family:  "Adobe 黑体 Std R" ;
+        text-align:left;
+    }
+    .text7{
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left:20%;
+         font-size:32px;
+        color: #000000;
+        font-family:  "Adobe 黑体 Std R" ;
+    }
+    .span2{
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left:20%;
+        font-size:28px;
+        color: #000000;
+        font-family:  "Adobe 黑体 Std R" ;
+    }
+    .span3{
+        height:32px;
+        width: 50%;
+        line-height:32px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size:32px;
+        color:#5fc0cd;
+        font-weight: bold;
+        margin-left: -3%;
+    }
