@@ -18,14 +18,12 @@
         top: 60px;
         width: 100%;
         height:75%;
-        border:1px dotted black;
      }
      footer{
         position: fixed;
         bottom: 0;
         height: 10%;
         width: 100%;
-        border:1px dotted black;
      }
      .img1{
        position: absolute;
@@ -61,7 +59,6 @@
         
         width: 100%;
         height:40%;
-        border:1px dotted black;
         background-image: url(background.png);
         background-size:cover;
         position: relative;
@@ -77,7 +74,7 @@
     }
     .text1{
         font-size:36px;
-        position: absolute;
+        position: fixed;
         top: 0;
         left:25px;
         color: #ffffff;
@@ -85,7 +82,7 @@
     }
     .text2{
         font-size: 28px;
-        position: absolute;
+        position: fixed;
         right:25px;
         top:4px;
         color: #ffffff;
@@ -93,7 +90,7 @@
     }
     .text3{
         font-size: 24px;
-        position: absolute;
+        position:fixed;
         right:25px;
         bottom: 0;
         color: #ffffff;
@@ -101,14 +98,13 @@
     }
     .img4{
         height: 24px;
-        position: absolute;
+        position: fixed;
         left:25px;
         bottom: 0;
     }
     .content2{
     	width: 100%;
         height:70%;
-        border:1px dotted black;
         position: relative;
     }
     .button1{
@@ -144,17 +140,23 @@
     .content2 li{
     	display: block;
     	height:16%;
-		border:1px dotted black;
+    	width: 93%;
 		margin-left:4%;
 		position: relative;
+
+    }
+    .liborder{
+    	border-bottom: 1px solid #e1e5e7;
     }
 
     .textbox3{
+    	height:32px;
     	width: 50%;
+    	line-height:32px;
     	position: absolute;
     	top: 50%;
         transform: translateY(-50%);
-    	font-size:6rem;
+    	font-size:32px;
     	color: #000000;
     }
     .span1{
@@ -172,26 +174,39 @@
     .img6{
     	position: absolute;
     	top: 50%;
+    	left:12%;
         transform: translateY(-50%);
 		float: left;
 		line-height:70%;
+
     }
     .text4{
     	position: absolute;
     	top: 50%;
+    	left:3%;
         transform: translateY(-50%);
-		float: left;
 		line-height:70%;
+		 font-size:32px;
+        color: #000000;
+        font-family:  "Adobe 黑体 Std R" ;
+        text-align:left;
+		
     }
     .text5{
+
     	position: absolute;
     	top: 50%;
+    	left: 15%;
         transform: translateY(-50%);
 		float: left;
 		line-height:70%;
+		 font-size:32px;
+        color: #000000;
+        font-family:  "Adobe 黑体 Std R" ;
+        text-align:left;
     }
     .text6{
-    	width:16%;
+    	width:17%;
     	position: absolute;
     	top: 50%;
     	left: 0;
@@ -201,7 +216,6 @@
         color: #999999;
         font-family:  "Adobe 黑体 Std R" ;
         text-align:left;
-        vertical-align: middle;
     }
     .text7{
     	width: 70%;
@@ -223,8 +237,17 @@
         color: #000000;
         font-family:  "Adobe 黑体 Std R" ;
     }
-    .textbox4{
-
+    .span3{
+		height:32px;
+    	width: 50%;
+    	line-height:32px;
+    	position: absolute;
+    	top: 50%;
+        transform: translateY(-50%);
+    	font-size:32px;
+    	color:#5fc0cd;
+    	font-weight: bold;
+    	margin-left: -3%;
     }
  </style>
 
@@ -246,12 +269,12 @@
         </div>
         <div class="content2">
         	<ul>
-        		<li><p class="textbox3">专业技能</p></li><hr>
-        		<li><img class="img5" src="file://D:/GitHub/my-ityard-task/task5/star.png"><p class="text4">住家</p><img class="img6" src="file://D:/GitHub/my-ityard-task/task5/star.png"><p class="text5">不含餐</p></li>
-        		<li><p class="text6">从业年限&nbsp;&nbsp;</p><p class="text7">0~3年</p></li>
-        		<li><p class="text6">工作时间&nbsp;&nbsp;</p><p class="text7">全天</p></li>
-        		<li><p class="text6">服务价格&nbsp;&nbsp;<p><p class="text7">25元/小时</p></li>
-        		<li><p class="text6">自我介绍&nbsp;&nbsp;<p><p class="span2">可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。</p></li><hr>
+        		<li><p class="span3">丨</p><p class="textbox3">专业技能</p></li><hr>
+        		<li class="liborder"><img class="img5" src="file://D:/GitHub/my-ityard-task/task5/star.png"><p class="text4">住家</p><img class="img6" src="file://D:/GitHub/my-ityard-task/task5/star.png"><p class="text5">不含餐</p></li>
+        		<li class="liborder"><p class="text6">从业年限&nbsp;&nbsp;</p><p class="text7">0~3年</p></li>
+        		<li class="liborder"><p class="text6">工作时间&nbsp;&nbsp;</p><p class="text7">全天</p></li>
+        		<li class="liborder"><p class="text6">服务价格&nbsp;&nbsp;<p><p class="text7">25元/小时</p></li>
+        		<li class="liborder"><p class="text6">自我介绍&nbsp;&nbsp;<p><p class="span2">可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富。</p></li><hr>
         	</ul>
         </div>
     </main>
