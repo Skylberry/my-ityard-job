@@ -160,6 +160,8 @@
         transform: translateY(-50%);
         float: left;
         line-height:70%;
+        max-width: 100%;
+    max-height: 100%;
     }
     .img6{
         position: absolute;
@@ -168,6 +170,8 @@
         transform: translateY(-50%);
         float: left;
         line-height:70%;
+        max-width: 100%;
+    max-height: 100%;
     }
     .text4{
         position: absolute;
