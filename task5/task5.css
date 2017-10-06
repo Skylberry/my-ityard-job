@@ -42,7 +42,7 @@
         position:absolute;
         top: 6px;
         left:46%;
-        font-size:3.6vmin;
+        font-size:36px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
         
@@ -56,7 +56,7 @@
        
      }
     .textbox2{
-        width: 200px;
+        width: 500px;
         position: absolute;
         top: 50%;
         left:500px;
@@ -64,22 +64,14 @@
         height:26%;
     }
     .text1{
-        font-size:3.6vmin;
+        font-size:36px;
         float: left;
         left:25px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
     }
-    .text2{
-        font-size: 2.8vmin;
-        float: left;
-        margin-left:25px;
-        margin-top:2%;
-        color: #ffffff;
-        font-family: "Adobe 黑体 Std R" ;
-    }
     .text3{
-        font-size:2.4vmin;
+        font-size:24px;
         position: absolute;
         left:5%;
         top:70%;
@@ -88,14 +80,14 @@
         font-family: "Adobe 黑体 Std R" ;
     }
     .img4{
-        height: 2.4vmin;
+        height:24px;
         position: absolute;
         left:0;
         top:70%;
     }
     .content2{
         width: 100%;
-        height:70%;
+        height:60%;
         position: relative;
     }
     .button1{
@@ -106,7 +98,7 @@
         width: 45%;
         height: 70%;
         border: 2px solid #5fc0cd;
-        font-size: 3.4vmin;
+        font-size: 34px;
         color: #5fc0cd;
         font-family:  "Adobe 黑体 Std R" ;
         background-color: #ffffff;
@@ -119,7 +111,7 @@
         width: 45%;
         height: 70%;
         border: 1px solid #5fc0cd;
-        font-size: 3.4vmin;
+        font-size: 34px;
         color: #ffffff;
         font-family:  "Adobe 黑体 Std R" ;
         background-color:#5fc0cd;
@@ -147,11 +139,11 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        font-size:3.2vmin;
+        font-size:32px;
         color: #000000;
     }
     .span1{
-        font-size:3.6vmin;
+        font-size:36px;
         color:#5fc0cd;
         padding-right: 2%;
     }
@@ -161,8 +153,6 @@
         transform: translateY(-50%);
         float: left;
         line-height:70%;
-        max-width: 100%;
-    max-height: 100%;
     }
     .img6{
         position: absolute;
@@ -171,8 +161,6 @@
         transform: translateY(-50%);
         float: left;
         line-height:70%;
-        max-width: 100%;
-    max-height: 100%;
     }
     .text4{
         position: absolute;
@@ -180,7 +168,7 @@
         left:5%;
         transform: translateY(-50%);
         line-height:70%;
-         font-size:3.2vmin;
+         font-size:32px;
         color: #000000;
         font-family:  "Adobe 黑体 Std R" ;
         text-align:left;
@@ -193,7 +181,7 @@
         transform: translateY(-50%);
         float: left;
         line-height:70%;
-         font-size:3.2vmin;
+         font-size:32px;
         color: #000000;
         font-family:  "Adobe 黑体 Std R" ;
         text-align:left;
@@ -205,10 +193,11 @@
         left: 0;
         transform: translateY(-50%);
         border-right: 1px solid #e1e5e7;
-         font-size:3.2vmin;
+         font-size:32px;
         color: #999999;
         font-family:  "Adobe 黑体 Std R" ;
         text-align:left;
+        white-space:nowrap; 
     }
     .text7{
         width: 70%;
@@ -216,19 +205,17 @@
         top: 50%;
         transform: translateY(-50%);
         margin-left:20%;
-         font-size:3.2vmin;
+         font-size:32px;
         color: #000000;
         font-family:  "Adobe 黑体 Std R" ;
+        margin-top: 1px;
     }
     .span2{
-        width: 50%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
         margin-left:20%;
-        font-size:2.8vmin;
+        font-size:28px;
         color: #000000;
         font-family:  "Adobe 黑体 Std R" ;
+        line-height: 28px;
     }
     .span3{
         height:32px;
@@ -237,8 +224,24 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        font-size:3.2vmin;
+        font-size:32px;
         color:#5fc0cd;
         font-weight: bold;
         margin-left: -3%;
+    }
+    .text2{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .text8{
+        border-right: 1px solid #e1e5e7;
+         font-size:32px;
+        color: #999999;
+        font-family:  "Adobe 黑体 Std R" ;
+        text-align:left;
+        white-space:nowrap; 
+        position: absolute;
+        bottom: 0;
+        left: 4%;
     }
