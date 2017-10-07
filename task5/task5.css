@@ -3,6 +3,7 @@
      header{
         position: fixed;
         display: flex;
+        align-items: center;
         height:60px;
         width: 100%;
         background-color: #5fc0cd;
@@ -14,32 +15,38 @@
         width: 100%;
         bottom:100px;
         overflow: auto;
+        font-size: 15px;
      }
 
-     .img1{
-		margin-top: 12px;
-		margin-left: 30px;
-		margin-right: -52px;
-        width: 22px;
-        height:36px;
+     .imgbox1{
+		margin-top:20px;
+		margin-left:20px;
+		margin-right:-62px;
+        width: 2.2rem;
+        height:3.0rem;
     }
-      
+
+     .img1{
+        
+        width:1rem;
+        height:1rem;
+    } 
      .img2{
         position:absolute;
         top: 0;
      }
      .img3{
-       margin-left: 50px;
-        width:12rem;
-        height:12rem;
-    
+       margin:30px 0 30px 20px;
+        width:80px;
+        height:80px;
+        
      }
      .textbox1{
 
 
      	z-index: 1;
 		margin: auto;
-        font-size:3.0rem;
+        font-size: 2.0rem;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
         
@@ -48,32 +55,28 @@
 		display: flex;
 		align-items: center;
         width: 100%;
-        height:40%;
         background-image:url("https://github.com/Skylberry/my-ityard-task/blob/master/task5/background.png?raw=true");
-        background-size:100% 100%;
+        background-size:cover;
         align-content:center;
        
      }
     .textbox2{
-        margin:20px;
        white-space: nowrap;
+       margin-left: 10px;
     }
      .textbox6{
-		margin: 20px;
        display: flex;
        flex-direction: row;
        align-items: center;
     }
     .text1{
-		margin: 20px;
-        font-size:2.8rem;
+	
         left:25px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
     }
     .text3{
-        font-size:2.4rem;
-      
+       
        margin-left: 10px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
@@ -85,18 +88,18 @@
     }
    
     .textbox3{
-        font-size:3.0rem;
+
         color: #000000;
         white-space: nowrap;
         font-family:  "Adobe 黑体 Std R" ;
     }
     .span1{
-        font-size:3.0px;
+
         color:#5fc0cd;
         padding-right: 2%;
     }
     .img5{
-        margin-left:50px;
+        margin-left:20px;
         height: 1.5rem;
        
     }
@@ -104,27 +107,26 @@
     .span3{
         height:32px;
         line-height:32px;
-        font-size:2.8rem;
         color:#5fc0cd;
         font-weight: bold;
-        margin-left:35px;
+        margin-left:15px;
     }
     .textbox4{
         display: flex;
         flex-direction: row;
-        margin-left: 20px;
+        margin-left:10px;
         flex: 1 0 auto;
         align-items: center;
-        margin: 20px 0 ;
+        margin:10px 0 ;
         white-space: nowrap;
     }
       
     .text8{
         white-space: nowrap;
-        margin-left: 50px;
-        padding-right: 50px;
+        margin-left:20px;
+        padding-right:20px;
         border-right: 1px solid #999999;
-        font-size:2.8rem;
+
         color: #999999;
         font-family:  "Adobe 黑体 Std R" ;
     
@@ -132,14 +134,14 @@
      .span2{
 
        align-self: center;
-        margin-left: 50px;
-        font-size:2.8rem;
+        margin-left:20px;
+
         white-space: nowrap
     }
  .content2{
         display: flex;
         flex-direction: column;
-        font-size:2.6rem;
+
     
     }
   
@@ -151,19 +153,19 @@
 
     }
      .text9{
-        margin-left:50px;
-        font-size:2.8rem;
+        margin-left:20px;
+
         white-space: nowrap;
-        padding-right: 50px;
+        padding-right:20px;
         border-right: 1px solid #999999;
         color: #999999;
         align-self: center;
        
         }   
       .span4{
-        margin-left: 50px;
+        margin-left:20px;
         align-self: center;
-        font-size:2.2rem;
+
         
     }
 
@@ -171,40 +173,38 @@
          border-bottom: 1px solid #999999;
     }
     .border2{
-        margin-left:30px;
+        margin-left:10px;
         border-bottom: 1px solid #999999;
-        margin-right: 30px;
+        margin-right: 10px;
     }
       footer{
+        font-size: 3.0rem;
        position: fixed; 
         display: flex;
         bottom: 0;
         width: 100%;
-        height:10%;
+        line-height:50px;
         background-color: #ffffff;
      }
       .button1{
+        font-size: 2rem;
+        flex: 0 1 50%;
+        margin: 0 10px;
         border-radius: 10px;
-        position: absolute;
-        top: 0;
-        left:4.1%;
-        width: 45%;
-        height: 70%;
+        text-align: center;
         border: 2px solid #5fc0cd;
-        font-size: 3.2rem;
         color: #5fc0cd;
         font-family:  "Adobe 黑体 Std R" ;
         background-color: #ffffff;
     } 
     .button2{
+        padding: 10px;
+        font-size: 2rem;
+        flex: 0 1 50%;
+        margin: 0 10px;
         border-radius: 10px;
-        position: absolute;
-        top: 0;
-        right: 4.1%;
-        width: 45%;
-        height: 70%;
-        border: 1px solid #5fc0cd;
-        font-size: 3.2rem;
+        text-align: center;
+        border: solid #5fc0cd;
         color: #ffffff;
         font-family:  "Adobe 黑体 Std R" ;
         background-color:#5fc0cd;
