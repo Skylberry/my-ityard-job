@@ -10,7 +10,7 @@
      }
     main{
         position:fixed;
-        top:0;
+        top:60px;
         width: 100%;
         bottom:100px;
         overflow: auto;
