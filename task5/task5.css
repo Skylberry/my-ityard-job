@@ -39,7 +39,7 @@
 
      	z-index: 1;
 		margin: auto;
-        font-size:4.6rem;
+        font-size:3.0rem;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
         
@@ -66,7 +66,7 @@
     }
     .text1{
 		margin: 20px;
-        font-size:3.6rem;
+        font-size:2.8rem;
         left:25px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
@@ -85,13 +85,13 @@
     }
    
     .textbox3{
-        font-size:3.2rem;
+        font-size:3.0rem;
         color: #000000;
         white-space: nowrap;
         font-family:  "Adobe 黑体 Std R" ;
     }
     .span1{
-        font-size:3.6px;
+        font-size:3.0px;
         color:#5fc0cd;
         padding-right: 2%;
     }
@@ -104,7 +104,7 @@
     .span3{
         height:32px;
         line-height:32px;
-        font-size:3.2rem;
+        font-size:2.8rem;
         color:#5fc0cd;
         font-weight: bold;
         margin-left:35px;
@@ -123,7 +123,7 @@
         margin-left: 50px;
         padding-right: 50px;
         border-right: 1px solid #999999;
-        font-size:3.2rem;
+        font-size:2.8rem;
         color: #999999;
         font-family:  "Adobe 黑体 Std R" ;
     
@@ -132,13 +132,13 @@
 
        align-self: center;
         margin-left: 50px;
-
+        font-size:2.8rem;
 
     }
  .content2{
         display: flex;
         flex-direction: column;
-        font-size:2.8rem;
+        font-size:2.6rem;
     
     }
   
@@ -151,7 +151,7 @@
     }
      .text9{
         margin-left:50px;
-        font-size:3.2rem;
+        font-size:2.8rem;
         white-space: nowrap;
         padding-right: 50px;
         border-right: 1px solid #999999;
@@ -162,6 +162,7 @@
       .span4{
         margin-left: 50px;
         align-self: center;
+        font-size:2.2rem;
         
     }
 
@@ -189,7 +190,7 @@
         width: 45%;
         height: 70%;
         border: 2px solid #5fc0cd;
-        font-size: 3.4rem;
+        font-size: 3.2rem;
         color: #5fc0cd;
         font-family:  "Adobe 黑体 Std R" ;
         background-color: #ffffff;
@@ -202,7 +203,7 @@
         width: 45%;
         height: 70%;
         border: 1px solid #5fc0cd;
-        font-size: 3.4rem;
+        font-size: 3.2rem;
         color: #ffffff;
         font-family:  "Adobe 黑体 Std R" ;
         background-color:#5fc0cd;
