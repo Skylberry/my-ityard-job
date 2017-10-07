@@ -56,7 +56,7 @@
      }
     .textbox2{
         margin:20px;
-       
+       white-space: nowrap;
     }
      .textbox6{
 		margin: 20px;
@@ -116,6 +116,7 @@
         flex: 1 0 auto;
         align-items: center;
         margin: 20px 0 ;
+        white-space: nowrap;
     }
       
     .text8{
@@ -133,7 +134,7 @@
        align-self: center;
         margin-left: 50px;
         font-size:2.8rem;
-
+        white-space: nowrap
     }
  .content2{
         display: flex;
