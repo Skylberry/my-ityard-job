@@ -19,6 +19,7 @@
      .img1{
 		margin-top: 12px;
 		margin-left: 30px;
+		margin-right: -52px;
         width: 22px;
         height:36px;
     }
@@ -28,79 +29,82 @@
         top: 0;
      }
      .img3{
-        position: absolute;
-        top: 50%;
-        transform: translate(30%, -50%);  /* 使用css3的transform来实现 */
-        width:170px;
-        height:170px;
+       margin-left: 50px;
+        width:12rem;
+        height:12rem;
     
      }
      .textbox1{
+
+
+     	z-index: 1;
 		margin: auto;
-        font-size:36px;
+        font-size:4.6rem;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
         
      }
      .content1{
+		display: flex;
+		align-items: center;
         width: 100%;
         height:40%;
         background-image:url("https://github.com/Skylberry/my-ityard-task/blob/master/task5/background.png?raw=true");
         background-size:100% 100%;
-        position: relative;
+        align-content:center;
        
      }
     .textbox2{
-        width: 500px;
-        position: absolute;
-        top: 50%;
-        left:500px;
-        transform: translate(-50%,-50%);  /* 使用css3的transform来实现 */
-        height:26%;
+        margin:20px;
+       
+    }
+     .textbox6{
+		margin: 20px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
     }
     .text1{
-        font-size:36px;
-        float: left;
+		margin: 20px;
+        font-size:3.6rem;
         left:25px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
     }
     .text3{
-        font-size:24px;
-        position: absolute;
-        left:5%;
-        top:70%;
-        left:25px;
+        font-size:2.4rem;
+      
+       margin-left: 10px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
     }
     .img4{
-        height:24px;
-        position: absolute;
-        left:0;
-        top:70%;
+        height:1.5rem;
+       align-self: baseline;
+       
     }
    
     .textbox3{
-        font-size:32px;
+        font-size:3.2rem;
         color: #000000;
         white-space: nowrap;
         font-family:  "Adobe 黑体 Std R" ;
     }
     .span1{
-        font-size:36px;
+        font-size:3.6px;
         color:#5fc0cd;
         padding-right: 2%;
     }
     .img5{
         margin-left:50px;
+        height: 1.5rem;
        
     }
  
     .span3{
         height:32px;
         line-height:32px;
-        font-size:32px;
+        font-size:3.2rem;
         color:#5fc0cd;
         font-weight: bold;
         margin-left:35px;
@@ -119,7 +123,7 @@
         margin-left: 50px;
         padding-right: 50px;
         border-right: 1px solid #999999;
-        font-size:32px;
+        font-size:3.2rem;
         color: #999999;
         font-family:  "Adobe 黑体 Std R" ;
     
@@ -134,7 +138,7 @@
  .content2{
         display: flex;
         flex-direction: column;
-        font-size:28px;
+        font-size:2.8rem;
     
     }
   
@@ -147,7 +151,7 @@
     }
      .text9{
         margin-left:50px;
-        font-size:32px;
+        font-size:3.2rem;
         white-space: nowrap;
         padding-right: 50px;
         border-right: 1px solid #999999;
@@ -167,6 +171,7 @@
     .border2{
         margin-left:30px;
         border-bottom: 1px solid #999999;
+        margin-right: 30px;
     }
       footer{
        position: fixed; 
@@ -184,7 +189,7 @@
         width: 45%;
         height: 70%;
         border: 2px solid #5fc0cd;
-        font-size: 34px;
+        font-size: 3.4rem;
         color: #5fc0cd;
         font-family:  "Adobe 黑体 Std R" ;
         background-color: #ffffff;
@@ -197,7 +202,7 @@
         width: 45%;
         height: 70%;
         border: 1px solid #5fc0cd;
-        font-size: 34px;
+        font-size: 3.4rem;
         color: #ffffff;
         font-family:  "Adobe 黑体 Std R" ;
         background-color:#5fc0cd;
