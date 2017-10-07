@@ -2,24 +2,26 @@
     *{padding: 0;margin:0;}
      header{
         position: fixed;
-        top: 0;
+        display: flex;
         height:60px;
         width: 100%;
         background-color: #5fc0cd;
+
      }
     main{
-        position: absolute;
-        top: 60px;
+        position:fixed;
+        top:0;
         width: 100%;
         bottom:100px;
         overflow: auto;
      }
 
-     .img1{position: absolute;
-       left: 30px;
-       top:12px;
+     .img1{
+		margin-top: 12px;
+		margin-left: 30px;
         width: 22px;
-        height:36px;}
+        height:36px;
+    }
       
      .img2{
         position:absolute;
@@ -34,10 +36,7 @@
     
      }
      .textbox1{
-        
-        position:absolute;
-        top: 6px;
-        left:46%;
+		margin: auto;
         font-size:36px;
         color: #ffffff;
         font-family: "Adobe 黑体 Std R" ;
@@ -82,17 +81,6 @@
         top:70%;
     }
    
-    .content2 ul{
-        height: 100%;
-        list-style: none;
-    }
-    .content2 li{
-        display: block;
-        height:50%;
-        width: 93%;
-        margin-left:4%;
-        position: relative;
-    }
     .textbox3{
         font-size:32px;
         color: #000000;
@@ -105,7 +93,7 @@
         padding-right: 2%;
     }
     .img5{
-        margin-left:4%;
+        margin-left:50px;
        
     }
  
@@ -115,7 +103,7 @@
         font-size:32px;
         color:#5fc0cd;
         font-weight: bold;
-        margin-left:3%;
+        margin-left:35px;
     }
     .textbox4{
         display: flex;
@@ -128,7 +116,7 @@
       
     .text8{
         white-space: nowrap;
-        margin-left: 4%;
+        margin-left: 50px;
         padding-right: 50px;
         border-right: 1px solid #999999;
         font-size:32px;
@@ -158,7 +146,7 @@
 
     }
      .text9{
-        margin-left: 4%;
+        margin-left:50px;
         font-size:32px;
         white-space: nowrap;
         padding-right: 50px;
@@ -177,8 +165,7 @@
          border-bottom: 1px solid #999999;
     }
     .border2{
-        margin-left: 2%;
-        width: 96%;
+        margin-left:30px;
         border-bottom: 1px solid #999999;
     }
       footer{
