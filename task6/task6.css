@@ -1,0 +1,27 @@
+html{font-size: 62.5%;}
+*{padding: 0;margin: 0;}
+body{
+    font-size: 2rem;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color: #5fc0cd;
+}
+.textbox1{
+    padding: 10px;
+    color:#ffffff;
+    border-radius: 10%;
+    background-color: #55a8b3;
+    margin: 10px 0;
+}
+.textbox2{
+    padding: 10px;
+    color: #5fc0cd;
+    border-radius: 10%;
+    background-color: #ffffff;
+    margin: 10px 0; 
+
+}
