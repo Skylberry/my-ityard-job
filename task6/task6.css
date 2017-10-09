@@ -3,14 +3,14 @@ html{font-size: 62.5%;}
 body{
     font-size: 1.5rem;
 }
-header{
+.head1{
     display:flex;
     height: 50px;
     width: 100%;
     background-color: #5fc0cd;
 }
 .textbox1{
-        margin: auto;
+        margin:auto;
 }
 
 .text1{
@@ -27,12 +27,11 @@ header{
     border-radius: 10%;
     background-color: #ffffff;
     margin: 5px 0; 
-display: inline;
+    display: inline;
 }
 
 .img1{
-     overflow: hidden; 
-    display: block;
+    overflow: hidden; 
     display: inline;
     width: 25px;
     height: 22px;
@@ -96,4 +95,59 @@ footer{
     background-position:98% 86%;
     float: right;
 
+}
+.container{
+    margin:5px 0px;
+    /*border: 1px dotted #000000;*/
+    text-align: center;
+    color: #999999;
+}
+
+div.col-xs-12{
+    text-align: left;
+    line-height: 20px;
+    
+}
+
+.calender{
+
+    overflow: hidden; 
+    display: inline;
+    width: 12px;
+    height:20px;
+    background-image:url(sprite.png);
+    background-position:44% 68%;
+    float:left;
+    margin-left: -10px;
+   
+}
+.date{
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+div.col-xs-8{
+    text-align: left;
+    
+}
+.text3{
+    color: #000000;
+    margin-left: 10px;
+
+}
+.text4{
+    color:#ec6b4a;
+}
+.location{
+
+    overflow: hidden; 
+    display: inline;
+    width: 10px;
+    height:12px;
+    background-image:url(sprite.png);
+    background-position:66% 0%;
+    float:left;
+    margin-left: -10px;
+    margin-top: 6px;
+   
 }
