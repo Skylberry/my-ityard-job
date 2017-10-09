@@ -44,3 +44,56 @@ display: inline;
     margin-left: -45px;
 
 }
+footer{
+   position: fixed;
+   bottom: 0;
+    height: 48px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px dotted #000000;
+}
+.textbox2{
+     position: absolute;
+    left:20%;
+    color: #5fc0cd;
+}
+.textbox3{
+      position: absolute;
+    right: 20%;
+    color: #999999;
+}
+.footer1{
+   
+    overflow: hidden; 
+    display: inline;
+    width: 23px;
+    height: 20px;
+    background-image:url(sprite.png);
+    background-position:100% 0;
+    float: right;
+
+
+}
+.footer2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden; 
+    display: inline;
+    width: 48px;
+    height: 48px;
+    background-image:url(sprite.png);
+    background-position:0 0;
+    float: right;
+}
+.footer3{ 
+    overflow: hidden; 
+    display: inline;
+    width: 21px;
+    height: 21px;
+    background-image:url(sprite.png);
+    background-position:98% 86%;
+    float: right;
+
+}
