@@ -10,7 +10,7 @@ body{
     height:50px;
     width: 100%;
     background-color: #5fc0cd;;
-    z-index: 1;
+
 }
 button{
     border:0;
@@ -28,14 +28,16 @@ main{
     white-space: nowrap;
     overflow:auto;
     margin-top: 50px;
+    text-overflow :ellipsis;
 }
 .text1{
     padding: 5px;
     color:#ffffff;
     border-radius: 10%;
     background-color: #55a8b3;
-    margin: 5px -5px;
+    margin: 5px -8px;
     display: inline;
+
 }
 .text2{
     padding: 5px;
@@ -65,11 +67,12 @@ br{
 display:inline; line-height:0px;
 }
 footer{
+    padding: 5px;
    position: fixed;
    bottom: 0;
-    height: 48px;
+    height:55px;
     width: 100%;
-    background-color: #ffffff;
+    background-color:#f8fafb;
    /* border: 1px dotted #000000;*/
 }
 .textbox2{
@@ -91,7 +94,8 @@ footer{
     background-image:url(sprite.png);
     background-position:100% 0;
     float: right;
-
+    margin-bottom: 8px;
+    padding-right: 3px;
 
 }
 .footer2{
@@ -106,19 +110,20 @@ footer{
     background-image:url(sprite.png);
     background-position:0 0;
     float: right;
+
 }
 .footer3{ 
     overflow: hidden; 
     display: inline;
-    width: 21px;
+    width: 26px;
     height: 21px;
     background-image:url(sprite.png);
-    background-position:98% 88%;
+    background-position:97.8% 88%;
     float: right;
-
+    margin-bottom: 8px;
 }
 .container{
-
+text-overflow :ellipsis;
     margin:5px 0px;
     /*border: 1px dotted #000000;*/
     text-align: center;
@@ -129,6 +134,10 @@ div.col-xs-12{
     text-align: left;
     line-height: 20px;
     
+}
+ul.dropdown-menu{
+    margin-left:30%;
+
 }
 
 .calender{
@@ -155,10 +164,11 @@ div.col-xs-8{
 .text3{
     color: #000000;
     margin-left: 10px;
-
+text-overflow :ellipsis
 }
 .text4{
     color:#ec6b4a;
+   
 }
 .location{
 
