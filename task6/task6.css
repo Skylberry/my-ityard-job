@@ -2,23 +2,39 @@ html{font-size: 62.5%;}
 *{padding: 0;margin: 0;}
 body{
     font-size: 1.5rem;
+    
 }
 .head1{
-    display:flex;
-    height: 50px;
+    position: fixed;
+    top: 0;
+    height:50px;
     width: 100%;
-    background-color: #5fc0cd;
+    background-color: #5fc0cd;;
+    z-index: 1;
 }
-.textbox1{
-        margin:auto;
+button{
+    border:0;
+    background-color:#ffffff;
 }
 
+.textbox1{
+        margin:auto;
+         position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main{
+    white-space: nowrap;
+    overflow:auto;
+    margin-top: 50px;
+}
 .text1{
     padding: 5px;
     color:#ffffff;
     border-radius: 10%;
     background-color: #55a8b3;
-    margin: 5px 0;
+    margin: 5px -5px;
     display: inline;
 }
 .text2{
@@ -26,22 +42,27 @@ body{
     color: #5fc0cd;
     border-radius: 10%;
     background-color: #ffffff;
-    margin: 5px 0; 
+    margin: 5px 0px; 
     display: inline;
 }
 
 .img1{
+    position:absolute;
     overflow: hidden; 
     display: inline;
     width: 25px;
     height: 22px;
     background-image:url(sprite.png);
     background-position:50% 0;
-    float: right;
+
     margin-top:14px;
-    margin-right: 15px;
+    right: 15px;
     margin-left: -45px;
 
+}
+
+br{
+display:inline; line-height:0px;
 }
 footer{
    position: fixed;
@@ -49,7 +70,7 @@ footer{
     height: 48px;
     width: 100%;
     background-color: #ffffff;
-    border: 1px dotted #000000;
+   /* border: 1px dotted #000000;*/
 }
 .textbox2{
      position: absolute;
@@ -92,11 +113,12 @@ footer{
     width: 21px;
     height: 21px;
     background-image:url(sprite.png);
-    background-position:98% 86%;
+    background-position:98% 88%;
     float: right;
 
 }
 .container{
+
     margin:5px 0px;
     /*border: 1px dotted #000000;*/
     text-align: center;
