@@ -5,6 +5,8 @@ body{
     
 }
 .head1{
+    
+    z-index: 1;
     position: fixed;
     top: 0;
     height:50px;
@@ -25,9 +27,10 @@ button{
     transform: translate(-50%, -50%);
 }
 main{
-    white-space: nowrap;
-    overflow:auto;
     margin-top: 50px;
+    white-space: nowrap;
+    overflow:hidden;
+    
     text-overflow :ellipsis;
 }
 .text1{
@@ -164,11 +167,13 @@ div.col-xs-8{
 .text3{
     color: #000000;
     margin-left: 10px;
-text-overflow :ellipsis
+text-overflow :ellipsis;
+white-space: nowrap;
+    overflow:hidden;
 }
 .text4{
     color:#ec6b4a;
-   
+
 }
 .location{
 
