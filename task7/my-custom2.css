@@ -1,3 +1,10 @@
+.container{
+    overflow: auto;
+}
+div.col-xs-4{
+ display: flex;
 
-
+    align-items:center;
+    justify-content: center;
+}
 

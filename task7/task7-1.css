@@ -14,6 +14,7 @@ header{
 body{
 
 }
+
 main{
     margin-top: 50px;
 
@@ -104,6 +105,8 @@ main{
     padding: 25px 0;
     margin-left: -40px;
 }
+
+
 .img3{
      position: absolute;
     right: -20px;
