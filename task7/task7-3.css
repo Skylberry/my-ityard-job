@@ -162,8 +162,7 @@ white-space:nowrap;
     width: 50%;
     height: 70%;
     background-color: #f66f6f;
-    color: #ffffff;
-    font-size: 2.5rem;
+    text-decoration:none;
         outline:none;
     border:none;
     margin: 20px;
@@ -183,7 +182,11 @@ white-space:nowrap;
     margin: 20px;
     border-radius: 10px;
 }
-
+.a1{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-decoration:none;
+}
 
 
 

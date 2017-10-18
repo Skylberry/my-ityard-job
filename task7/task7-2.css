@@ -1,9 +1,6 @@
 *{padding: 0px;margin: 0px;font-size: 1.5rem;}
 html{font-size: 62.5%;  height: 100%;background-color:#29bde0;}
-body{
-    
 
-}
 .head1{
     position: fixed;
     top: 0;
@@ -222,4 +219,10 @@ left: 58px;
     height: 15px;
     background-image:url(task7.png);
     background-position:-256px 0;
+}
+
+.a1{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-decoration:none;
 }

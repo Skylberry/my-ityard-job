@@ -1,0 +1,569 @@
+*{padding: 0;margin: 0;font-size: 1.5rem;}
+html{font-size: 62.5%;background-color:#29bde0;}
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items:center;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color:#29bde0;
+}
+
+
+main{
+    margin-top: 50px;
+
+    padding:15px 20px;
+
+}
+.img1{
+    width: 17px;
+    height: 14px;
+    background-image:url(task7.png);
+    background-position:28% 0;
+    margin:15px 0 15px 20px;
+
+}
+
+.content1{
+    position:relative;/******重要，这个relative使得子元素可以相对content1进行绝对定位*****/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color:#9a9a9a;
+    font-family: "Adobe 黑体 Std R";
+    font-size: 1.5rem;
+}
+.text1{
+    display: block;
+    color:#9a9a9a;
+    font-family: "Adobe 黑体 Std R";
+    margin: 15px 0;
+    
+}
+.img2{
+    position: absolute;
+    right: 10px;
+}
+
+.content2{
+    position:relative;/******重要，这个relative使得子元素可以相对content1进行绝对定位*****/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #fbb435;
+    color:#fbb435;
+    font-family: "Adobe 黑体 Std R";
+    font-size:2rem;
+    padding: 10px 0;
+}
+
+.content3{
+    position:relative;/******重要，这个relative使得子元素可以相对content1进行绝对定位*****/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#29bde0;
+    color:#ffffff;
+    font-family: "Adobe 黑体 Std R";
+    margin-top: 15px;
+    font-size:2rem;
+    padding: 25px 0;
+}
+
+.content4{
+    position:relative;/******重要，这个relative使得子元素可以相对content1进行绝对定位*****/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color:#787878;
+    font-family: "Adobe 黑体 Std R";
+    font-size:1.5rem;
+    padding: 15px 0 0 0;
+}
+
+.imgbox1{
+      position:relative;/******重要，这个relative使得子元素可以相对content1进行绝对定位*****/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 25px 0;
+    margin-left: -40px;
+}
+
+
+.img3{
+     position: absolute;
+    right: -20px;
+    width: 15px;
+    height: 29px;
+    background-image:url(task7.png);
+    background-position:0 0;
+}
+
+.text2{
+    display: block;
+    margin:0;
+    
+}
+
+.content5{
+    position:relative;/******重要，这个relative使得子元素可以相对content1进行绝对定位*****/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    font-size:2rem;
+    padding: 5px 0;
+}
+.r1{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:#29bde0;
+    margin: 0 5px;
+}
+.r2{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:#f0f0f0;
+    margin: 0 5px;
+}
+
+
+
+.head1-2{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color:#29bde0;
+    color: #ffffff;
+}
+
+.img1-2{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background-image:url(task7.png);
+    background-position:48% 0;
+
+}
+
+.text1-2{
+    display: block;
+    margin: 0px;
+}
+.img2-2{
+        position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-image:url(task7.png);
+    background-position:58% 0;
+}
+.head2-2{
+    position: fixed;
+    top:50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    background-color:#b9e9f5;
+    color: #000000;
+}
+.tri-2{
+    position: absolute;
+    left: 10%;
+    bottom:-10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #b9e9f5;
+    z-index: 2;
+}
+
+.img3-2{
+        position: absolute;
+    right: 10px;
+    width: 27px;
+    height: 27px;
+    background-image:url(task7.png);
+    background-position:7% 0;
+}
+.text2-2{
+    position: absolute;
+    left: 9%;
+    margin: 0px;
+}
+.head3-2{
+    position: fixed;
+    top:100px;
+    z-index:1;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color:#29bde0;
+    color: #ffffff;
+}
+.text3-2{
+    position: absolute;
+    left: 10%;
+    margin: 0px;
+}
+.main-2{
+    margin-top: 140px;
+    background-color:#29bde0;
+
+    min-height: 100px;
+    overflow: auto;
+    margin-bottom: 100px;
+
+}
+.content1-2{
+position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    width: 100%;
+    height:100%;
+    margin:5px 0;
+
+}
+.box1-2{
+    display: flex;
+    flex-direction:column;
+    
+    width:80px;
+    height:108px;
+
+}
+
+
+.textbox1-2{
+
+display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+width:100%;
+height:60px;
+background-color: #f5c97b;
+color: #000000;
+border-top:3px solid #ffffff;
+border-left:3px solid #ffffff;
+border-right:3px solid #ffffff;
+}
+.textbox2-2{
+display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+width:100%;
+height:20px;
+background-color: #83b09a;
+color: #ffffff;
+border-bottom:3px solid #ffffff;
+border-left:3px solid #ffffff;
+border-right:3px solid #ffffff;
+margin-bottom:8px;
+}
+
+
+.foot-2{
+    position: fixed;
+    bottom: 0;
+   display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color:#29bde0;
+
+}
+.button1-2{
+    display: block;
+    width: 60%;
+    height: 50%;
+    background-color: #fbb435;
+    color: #ffffff;
+    font-size: 3rem;
+        outline:none;
+    border:none;
+}
+
+.drop-2{
+position:relative;
+display: flex;
+flex-direction:row;
+align-items:center;
+bottom: 0;
+width:80px;
+height:20px;
+z-index: 1;
+display: none;
+
+}
+.box1-2:hover .drop-2{
+display:block;
+
+}
+.img4-2{
+    position: absolute;
+    left:4px;
+    
+    width: 15px;
+    height: 15px;
+    background-image:url(task7.png);
+    background-position:-178px 0;
+}
+.img5-2{
+position: absolute;
+left: 22px;
+    width: 15px;
+    height: 15px;
+    background-image:url(task7.png);
+    background-position:-204px 0;
+}
+.img6-2{
+position: absolute;
+left: 40px;
+    width: 15px;
+    height: 15px;
+    background-image:url(task7.png);
+    background-position:-230px 0;
+}
+.img7-2{
+position: absolute;
+left: 58px;
+    width: 15px;
+    height: 15px;
+    background-image:url(task7.png);
+    background-position:-256px 0;
+}
+
+.a1-2{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-decoration:none;
+}
+
+
+.main-3{
+    margin-top: 50px;
+background-color:#29bde0;
+
+}
+body{
+            background-color:#29bde0;
+}
+.head1-3{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color:#29bde0;
+    color: #ffffff;
+    border-bottom: 1px solid #74d4eb;
+}
+
+.img1-3{
+    position: absolute;
+    left: 10px;
+    width: 26px;
+    height: 22px;
+    background-image:url(task7.png);
+    background-position:18% 0;
+
+}
+.text1-3{
+    display: block;
+    margin: 0px;
+    font-size: 2rem;
+}
+.img2-3{
+        position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-image:url(task7.png);
+    background-position:38.5% 0;
+}
+.imgbox1-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.img3-3{
+    width: 176px;
+    height: 103px;
+    background-image:url(victory.png);
+}
+.textbox1-3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    padding-top: 10px;
+
+}
+
+.text2-3{
+    color: #ffc865;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.text3-3{
+    color: #ffffff;
+    margin: 0;
+}
+
+.textbox2-3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.textbox3-3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text4-3{
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+
+}
+
+.textbox4-3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.text5-3{
+    left: 0;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.textbox5-3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.body2-3{
+    background-color: #ffffff;
+    border-bottom: 1px solid  #a6a6a6;
+}
+.text6-3{
+    color: #000000;
+
+}
+.text7-3{
+    color: #a6a6a6;
+
+   }
+
+ .text8-3{
+    color: #a6a6a6;
+    margin: 0;
+   }
+.text9-3{
+    color: #a6a6a6;
+    padding-bottom: 10px;
+   }
+
+
+.foot-3{
+    position: fixed;
+    bottom: 0;
+   display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 70px;
+    width: 100%;
+    background-color:rgba(153,223,240,0.5);
+white-space:nowrap;
+}
+.button1-3{
+    display: block;
+    width: 50%;
+    height: 70%;
+    background-color: #f66f6f;
+    text-decoration:none;
+        outline:none;
+    border:none;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.button2-3{
+    display: block;
+    width: 50%;
+    height: 70%;
+    background-color: #fbb435;
+    color: #ffffff;
+    font-size: 2.5rem;
+        outline:none;
+    border:none;
+    margin: 20px;
+    border-radius: 10px;
+}
+.a1-3{
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-decoration:none;
+}
+
+
+
