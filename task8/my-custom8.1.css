@@ -1,1 +1,7 @@
-
+ @media screen and (min-width: 992px) {
+    .col-md-20 {
+        float: left;
+        width: 20%;
+        box-sizing: border-box;
+    }
+}
